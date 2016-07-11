@@ -1,0 +1,125 @@
+body {
+	font-size: 20px;
+	color: #fff;
+	background-color: #7A9398;
+	font-family:'Indie Flower', cursive;
+}
+
+/** HEADER **/
+#header-nav{
+	background-color: #F690F6;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 50px;
+}
+
+.navbar-brand h1{ /*Restaurant name */
+	font-family: 'Indie Flower', cursive;
+	color: #fff;
+	font-size: 2.0em;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom:0;
+	line-height: .75;
+	text-align: left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+	background-color: #8419D7;
+}
+
+#nav-list a {
+	color: #fff;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #C69AE8;
+}
+
+#nav-list a span {
+	font-size: 1.9em;
+}
+
+
+
+/*  End Header */
+
+/* Home Page */
+#main-title {
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+
+#chicken-title {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container .main{
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #fff;
+	padding: 10px;
+	height: 1000px;
+	background-color: #8F88C8;
+}
+
+/* End Home Pate */
+
+
+
+/****** Large Devices Only *****/
+@media (min-width: 1200px) {
+
+}
+  
+/****** Medium Devices Only *****/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand{
+  	padding-top: 10px;
+  	height: 80px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+  	padding-top: 10px;
+  	font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+}
+
+
+/****** Small Devices Only *****/
+@media (min-width: 768px) and (max-width: 991px){
+  .navbar-brand{
+  	padding-top: 10px;
+  	height: 80px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+  	padding-top: 10px;
+  	font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+}
+
+/****** Extra Small Devices Only *****/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand{
+  	padding-top: 10px;
+  	height: 80px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+  	padding-top: 10px;
+  	font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+  }
+ 
+
